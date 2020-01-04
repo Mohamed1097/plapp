@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F44336"
+    android:layout_height="match_parent"
+    tools:context=".presentation.Splash">
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/splash_image"
+        android:layout_width="207dp"
+        android:layout_height="216dp"
+        android:layout_gravity="center"
+        android:src="@drawable/pllogo"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.429" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
